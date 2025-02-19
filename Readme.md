@@ -7,7 +7,7 @@ A command-line tool to **create playlists**, **add songs**, and **clean up dupli
 👉 Add songs from a text file  
 👉 Prevent duplicate songs from being added  
 👉 Cleanup function to remove duplicate tracks  
-👉 Fully **automated** with **Spotipy**  
+👉 Fully **automated** with **Spotify**  
 
 ---
 
