@@ -13,8 +13,6 @@ BASE_DIR = os.path.dirname(REAL_PATH)
 # Construct the .env path dynamically
 dotenv_path = os.path.join(BASE_DIR, ".env")
 
-print(dotenv_path)
-
 if os.path.exists(dotenv_path):
     load_dotenv(dotenv_path)
 else:
