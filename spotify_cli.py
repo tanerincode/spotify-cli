@@ -6,7 +6,11 @@ from spotipy.oauth2 import SpotifyOAuth
 from dotenv import load_dotenv
 
 # Load environment variables from .env
-dotenv_path = "/Users/tombastaner/workspace/spotify-list/.env"
+# Get the directory where the script is located
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the .env path dynamically
+dotenv_path = os.path.join(BASE_DIR, ".env")
 if os.path.exists(dotenv_path):
     load_dotenv(dotenv_path)
 else:
