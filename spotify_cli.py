@@ -1,4 +1,4 @@
-#!/Users/tombastaner/.pyenv/versions/3.11.4/bin/python3
+#!/usr/bin/env python3
 import os
 import click
 import spotipy
